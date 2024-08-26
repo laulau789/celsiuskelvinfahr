@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+int main (){
+double C,K,F;
+scanf("%lf",&F);
+C=(F-32)/1.8;
+K=(C+273.15);
+printf("%.2lf C\n%.2lf K",C,K);
+
+  return (0);
+}
